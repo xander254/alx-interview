@@ -1,5 +1,11 @@
 #!/usr/bin/python3
+"""A module that finds the perimeter of an island in a 2d matrix"""
 def island_perimeter(grid):
+    """
+    A function that will find the perimeter of the island
+    Args: List: grid
+    Return: perimeter
+    """
     perimeter = 0
 
     for i, row in enumerate(grid):
