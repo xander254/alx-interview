@@ -9,7 +9,7 @@ def canUnlockAll(boxes):
 
     n = len(boxes)
     opened = set([0])
-    stack = [0]     
+    stack = [0]
 
     while stack:
         current = stack.pop()
@@ -20,4 +20,3 @@ def canUnlockAll(boxes):
                 stack.append(key)
 
     return len(opened) == n
-    
